@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "wrover-ie-lib")(type "KiCad")(uri "${KIPRJMOD}/wrover-ie-lib.kicad_sym")(options "")(descr ""))
+  (lib (name "FFC2B28-24-G")(type "KiCad")(uri "C:/Users/willo/Downloads/FFC2B28-24-G/FFC2B28-24-G.kicad_sym")(options "")(descr ""))
+)

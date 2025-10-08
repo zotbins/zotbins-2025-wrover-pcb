@@ -1,0 +1,32 @@
+# Ignore list for KiCad Projects
+
+# Temporary files and backups
+*.000
+*.bak
+*.bck
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*~_autosave-*
+*.tmp
+*-save.pro
+*-save.kicad_pcb
+fp-info-cache
+*.lck
+#auto_saved_files#
+
+# Local project settings
+*.kicad_prl
+
+# Netlist files (exported from Eeschema)
+*.net
+
+# Autorouter files (exported from Pcbnew)
+*.dsn
+*.ses
+
+# Exported BOM files (optional, depending on project needs)
+# *.xml
+# *.csv
+
+# Fabrication output (optional, can be generated on demand)
+# /Fabrication/
