@@ -3691,16 +3691,6 @@
 		)
 		(uuid 7b902447-ce32-4231-9a0d-4d90be8080a6)
 	)
-	(text "Need to test 12/14 for GPIO expander interrupt\n"
-		(exclude_from_sim no)
-		(at 143.002 41.402 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "0fb5def9-dead-4d3a-99df-f5fe7f4b184d")
-	)
 	(text "Pins GPIO6 to GPIO11 on the ESP32-D0WD-V3/ESP32-D0WDR2-V3 chip (any ESP32-WROVER) are connected to the SPI flash\nintegrated on the module and are not led out.\nhttps://www.espressif.com/sites/default/files/documentation/esp32-wrover-e_esp32-wrover-ie_datasheet_en.pdf\n\nThat is, do not use D0-D3 and CMD or CLK."
 		(exclude_from_sim no)
 		(at 136.652 94.742 0)
@@ -3711,16 +3701,6 @@
 			(justify left)
 		)
 		(uuid "3e1bb271-c47d-41b3-8742-a445bc68bb1e")
-	)
-	(text "Need to test 16/17 for GPIO expander\n"
-		(exclude_from_sim no)
-		(at 250.952 44.958 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "5a1c2b79-8fe4-4885-acbd-811b10acf6fe")
 	)
 	(text "GPIO Expander"
 		(exclude_from_sim no)
