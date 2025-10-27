@@ -5958,6 +5958,16 @@
 		)
 		(uuid "1543dfc1-1281-4159-979a-d4aa492b3caa")
 	)
+	(text "Main Power"
+		(exclude_from_sim no)
+		(at 30.226 143.002 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3b87ab68-4448-4b10-bcce-6b5eab938273")
+	)
 	(text "GPIO Expander"
 		(exclude_from_sim no)
 		(at 21.844 14.986 0)
@@ -5967,6 +5977,26 @@
 			)
 		)
 		(uuid "74f96ea5-33e5-486b-8f9d-51d1f0e5e326")
+	)
+	(text "Camera Power Step Down"
+		(exclude_from_sim no)
+		(at 113.03 106.934 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b4f341e2-f792-4982-8182-b629c8f67b31")
+	)
+	(text "Servo Power"
+		(exclude_from_sim no)
+		(at 30.226 108.966 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d3fbb41b-b717-4772-abbb-03d78613a14f")
 	)
 	(text "Peripheral Screw Terminals"
 		(exclude_from_sim no)

@@ -60,11 +60,7 @@
       ],
       "drc_exclusions": [
         [
-          "clearance|136903100|125741300|19a0eb99-0b90-4486-9af6-fc78fd6529cf|dee4542b-b4f9-433f-814d-444d9c13facc",
-          ""
-        ],
-        [
-          "solder_mask_bridge|136903100|125741300|dee4542b-b4f9-433f-814d-444d9c13facc|19a0eb99-0b90-4486-9af6-fc78fd6529cf",
+          "clearance|135728700|125169800|19a0eb99-0b90-4486-9af6-fc78fd6529cf|dee4542b-b4f9-433f-814d-444d9c13facc",
           ""
         ]
       ],
@@ -132,20 +128,20 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.3,
-        "min_connection": 0.3,
+        "min_clearance": 0.2,
+        "min_connection": 0.2,
         "min_copper_edge_clearance": 0.5,
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.2,
-        "min_hole_to_hole": 0.25,
+        "min_hole_to_hole": 0.3,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
         "min_resolved_spokes": 2,
         "min_silk_clearance": 0.15,
         "min_text_height": 1.0,
         "min_text_thickness": 0.153,
-        "min_through_hole_diameter": 0.2,
-        "min_track_width": 0.3,
+        "min_through_hole_diameter": 0.25,
+        "min_track_width": 0.2,
         "min_via_annular_width": 0.254,
         "min_via_diameter": 0.25,
         "solder_mask_to_copper_clearance": 0.0,
@@ -255,7 +251,20 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "pin_to_pin|1333500|1371600|35e5166c-2965-43ed-b178-be05c549fdae|71816e8d-cc85-4c6f-afd5-4f89eeb91258|/aba5dde1-d626-46ae-bab9-bd846b47c317|/aba5dde1-d626-46ae-bab9-bd846b47c317|/aba5dde1-d626-46ae-bab9-bd846b47c317",
+        ""
+      ],
+      [
+        "pin_to_pin|1536700|1168400|1ab0f5dd-d9ee-43be-986c-67a7d40360ac|ae6ff460-53e9-4130-a872-71b06b261623|/aba5dde1-d626-46ae-bab9-bd846b47c317|/aba5dde1-d626-46ae-bab9-bd846b47c317|/aba5dde1-d626-46ae-bab9-bd846b47c317",
+        ""
+      ],
+      [
+        "pin_to_pin|1549400|1612900|de9551aa-2048-4246-baf1-6fa7fa8f1d63|ba402faf-6f61-4147-9ab8-f9a61b9267be|/aba5dde1-d626-46ae-bab9-bd846b47c317|/aba5dde1-d626-46ae-bab9-bd846b47c317|/aba5dde1-d626-46ae-bab9-bd846b47c317",
+        ""
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -487,7 +496,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.3,
+        "clearance": 0.2,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -498,8 +507,8 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.3,
-        "via_diameter": 0.6,
+        "track_width": 0.2,
+        "via_diameter": 1.0,
         "via_drill": 0.3,
         "wire_width": 6
       },
