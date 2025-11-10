@@ -5,4 +5,5 @@
   (lib (name "DCJ200-10-A-XX-K_REVA")(type "KiCad")(uri "${KIPRJMOD}/DCJ200_10_A_K1_K/DCJ200-10-A-XX-K_REVA.kicad_sym")(options "")(descr ""))
   (lib (name "2025-10-20_17-19-37")(type "KiCad")(uri "${KIPRJMOD}/XC6206P282PR_G/KiCADv6/2025-10-20_17-19-37.kicad_sym")(options "")(descr ""))
   (lib (name "2025-10-20_17-16-44")(type "KiCad")(uri "${KIPRJMOD}/XC6206P302MR_G/KiCADv6/2025-10-20_17-16-44.kicad_sym")(options "")(descr ""))
+  (lib (name "LED-Flash")(type "KiCad")(uri "${KIPRJMOD}/MP_3030_120H_30_95/MP-3030-120H-30-95.kicad_sym")(options "")(descr ""))
 )
