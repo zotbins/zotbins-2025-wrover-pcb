@@ -10475,6 +10475,16 @@
 		)
 		(uuid "04cf1c41-fc5d-426e-97b4-f49badd73001")
 	)
+	(label "~{LED}"
+		(at 90.17 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "080ed8f1-8453-4d3e-a0e8-be1db2f67c85")
+	)
 	(label "HREF"
 		(at 166.37 41.91 180)
 		(effects
@@ -11134,16 +11144,6 @@
 			(justify right bottom)
 		)
 		(uuid "a4aa1dda-f346-4bc1-825d-9ff8e4ed4ed3")
-	)
-	(label "GPA5"
-		(at 90.17 88.9 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a6c1241f-e69a-4e50-b5d7-b26ad2a4b029")
 	)
 	(label "TRIG"
 		(at 243.84 22.86 0)
