@@ -7378,12 +7378,20 @@
 		(uuid "1e1ac71f-a7aa-4616-b981-64cdac651025")
 	)
 	(no_connect
+		(at 176.53 57.15)
+		(uuid "2d0b693a-af18-46dc-8bc6-78fb001ff297")
+	)
+	(no_connect
 		(at 27.94 60.96)
 		(uuid "6655ff33-b6ef-423a-b454-9ad5c2729056")
 	)
 	(no_connect
 		(at 176.53 54.61)
 		(uuid "7b17f37e-af6a-4b36-8612-2898d81ed5a7")
+	)
+	(no_connect
+		(at 176.53 39.37)
+		(uuid "82152db0-e45d-43b2-91bc-840475e7f304")
 	)
 	(no_connect
 		(at 104.14 55.88)
@@ -7406,6 +7414,10 @@
 		(uuid "bddc7cfc-a1db-4f45-ab18-a3a7dda73a60")
 	)
 	(no_connect
+		(at 176.53 24.13)
+		(uuid "c03d8ae8-c455-4d9d-b24c-486c65cc2f61")
+	)
+	(no_connect
 		(at 218.44 158.75)
 		(uuid "cb5a6fe7-665e-4bd3-85e6-b5a932f0af67")
 	)
@@ -7416,6 +7428,10 @@
 	(no_connect
 		(at 218.44 156.21)
 		(uuid "e8358e00-e7f4-4ae6-b28f-702973edc522")
+	)
+	(no_connect
+		(at 176.53 21.59)
+		(uuid "e9376dba-adf8-4de0-bde7-d1f2cee4c82b")
 	)
 	(no_connect
 		(at 259.08 143.51)
@@ -10626,7 +10642,7 @@
 		(uuid "7f140b92-9a5d-4d16-9b4d-516dbb0f37fd")
 	)
 	(label "GPIO_SCK"
-		(at 13.97 43.18 0)
+		(at 13.97 45.72 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10656,7 +10672,7 @@
 		(uuid "860129f9-a9f1-49aa-97c3-2f866eb25536")
 	)
 	(label "GPIO_SDA"
-		(at 13.97 45.72 0)
+		(at 13.97 43.18 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10926,7 +10942,7 @@
 		(uuid "c96c10d9-acc0-45af-91e0-2404f819045a")
 	)
 	(label "GPIO_SDA"
-		(at 200.66 143.51 0)
+		(at 200.66 151.13 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11106,7 +11122,7 @@
 		(uuid "f59a241e-2f0c-46ef-8991-cccd0a226467")
 	)
 	(label "GPIO_SCK"
-		(at 200.66 151.13 0)
+		(at 200.66 143.51 0)
 		(effects
 			(font
 				(size 1.27 1.27)
